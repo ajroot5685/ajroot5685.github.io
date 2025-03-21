@@ -138,7 +138,11 @@ NVMe SSD를 구입했으므로 맞는 위치에 딱 소리나게 끼워주고 �
 ## Ubuntu OS 깔기
 
 우분투 까는 법은 워낙 많아서 [여기](https://hayden-igm.tistory.com/87?category=1191260)를 참고해서 네트워크 설정, SSH 설치까지 완료해주자.
+
+> 와이파이를 사용할 수도 있지만, 안정적인 통신을 위해 공유기와 랜선 연결을 해주자.
+
 <br>
+
 SSH 터미널로 서버를 관리할 것이기 때문에 필요없긴 하지만, **한/영 설정**을 하고 싶다면 [여기](https://andrewpage.tistory.com/390)를 참고하면 되겠다.
 
 <img src="/assets/img/250317/make7.jpg" style="border-radius:5px" alt="make7" width="700">
