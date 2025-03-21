@@ -130,13 +130,7 @@ internal script /assets/js/dist/misc.min.js does not exist (line 1)
 
 - jekyll의 플러그인을 사용하여 자동으로 sitemap을 생성하도록 설정했고, 구글 서치 콘솔에 사이트맵을 등록했습니다.
 
-  [깃허브 블로그에서 구글 검색 엔진 최적화 하기 \| Jekyll Google SEO](https://standing-o.github.io/posts/jekyll-seo/)
-
-  [[Jekyll] 깃허브 지킬 블로그 구글 검색에 나타나게 하기 - 사이트맵 추가하기](https://chaerim-kim.github.io/jekyll%20blog/Jekyll-1/)
-
-  [구글서치콘솔 소유권 확인 방법](https://lotis.tistory.com/90)
-
-  [SEO (검색엔진 최적화)란? – 구글, 네이버 가이드 총정리](https://seo.tbwakorea.com/blog/seo-guide-2022/#part6)
+  [Github Blog 구글 검색 노출 시키기](https://taeho-jo.github.io/posts/googleseo/)
 
   [Github 페이지 Chirpy 테마 변경내용 실시간 적용 방법](https://friendlyvillain.github.io/posts/chirpy-refresh/)
 
