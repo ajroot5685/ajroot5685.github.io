@@ -283,7 +283,7 @@ sudo ln -s /etc/nginx/sites-available/test /etc/nginx/sites-enabled/test # 상�
 
 sudo nginx -t # 설정 테스트, 오류 있을 시 고친 후 진행
 
-sudo nginx reload # 설정 반영, 메모리로 올림
+sudo systemctl reload nginx # 설정 반영, 메모리로 올림
 
 sudo ufw allow 10000 # 해당 사이트에 대한 방화벽 허용
 ```
