@@ -150,7 +150,7 @@ sudo ./svc.sh start
 <br>
 추가/수정/삭제만 되고 그 누구도 읽을 수 없으므로 노출될 염려가 없다.
 <br>
-이렇게 설정한 변수는 워크플로우 스크립트에서 `${ { secrets.DOCKER_IMAGE_NAME }}` 와 같이 설정 가능하다.
+이렇게 설정한 변수는 워크플로우 스크립트에서 <code class="language-plaintext highlighter-rouge">$&#123;&#123; secrets.DOCKER_IMAGE_NAME &#125;&#125;</code> 와 같이 설정 가능하다.
 <br>
 `yaml` 같이 띄어쓰기 형식이 중요할 때에는 base64로 인코딩하여 설정하고, 사용할 때 디코딩하여 사용해야 한다.
 
@@ -166,6 +166,7 @@ sudo ./svc.sh start
 <br>
 아래 파일을 추가하고 main 브랜치에 push했을 때 파이프라인이 정상 작동되는지 확인한다.
 
+{% raw %}
 ```yaml
 name: Manitto CI/CD 파이프라인
 
@@ -224,6 +225,7 @@ jobs:
           docker system prune -af --volumes
           rm -rf ~/.gradle/caches
 ```
+{% endraw %}
 
 <br>
 

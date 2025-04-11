@@ -212,6 +212,7 @@ sudo nginx -s reload
 
 이전 포스팅에서 사용했던 workflows 스크립트에서 도커 컴포즈 실행 대신 짜여진 `deploy.sh`를 실행하도록 수정하면 된다.
 
+{% raw %}
 ```yaml
 name: Manitto CI/CD 파이프라인
 
@@ -266,6 +267,7 @@ jobs:
           docker system prune -af --volumes
           rm -rf ~/.gradle/caches
 ```
+{% endraw %}
 
 <br>
 
