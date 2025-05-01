@@ -53,7 +53,7 @@ tags:
 4. 로딩된 class 파일들은 Execution Engine을 통해 해석된다.
 5. 해석된 바이트 코드는 Runtime Data Area에 배치되어 실질적인 수행이 이루어지게 된다. 이러한 실행 과정 속에서 JVM은 필요에 따라 Thread Synchronization과 GC 같은 관리 작업을 수행한다.
 
-![JVM](/assets/img/240319/JVM.png)
+![JVM](/assets/img/24/03/19/JVM.png)
 
 <br>
 
@@ -100,7 +100,7 @@ tags:
 - JVM이 프로그램을 수행하기 위해 OS로부터 할당받은 메모리 공간이다.
 - 이 공간은 용도에 따라 여러 영역으로 나누어 관리한다.
 
-![Runtime Data Area](/assets/img/240319/Runtime%20Data%20Area.png)
+![Runtime Data Area](/assets/img/24/03/19/Runtime%20Data%20Area.png)
 
 <br>
 
@@ -159,7 +159,7 @@ Heap(힙 영역)
 </li>
 </ol>
 
-![heap](/assets/img/240319/heap.png)
+![heap](/assets/img/24/03/19/heap.png)
 
 <br>
 

@@ -42,8 +42,8 @@ tags:
 <br>
 
 ## 공유페이지 로직
-<img src="/assets/img/240803/share1.png" alt="share1" width=600>
-<img src="/assets/img/240803/share2.png" alt="share2" width=400>
+<img src="/assets/img/24/08/03/share1.png" alt="share1" width=600>
+<img src="/assets/img/24/08/03/share2.png" alt="share2" width=400>
 
 <br>
 
@@ -166,8 +166,8 @@ public String getSharePage(String param, Model model) {
 - 정상적으로 공유받은 URL에 접속하면 내용들이 보여지고, 잘못된 URL에 접속한 경우 에러페이지가 보여진다.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="/assets/img/240803/success.png" alt="success" width="300">
-    <img src="/assets/img/240803/error.png" alt="error" width="300">
+    <img src="/assets/img/24/08/03/success.png" alt="success" width="300">
+    <img src="/assets/img/24/08/03/error.png" alt="error" width="300">
 </div>
 
 <br>

@@ -117,7 +117,7 @@ public class SimpleTaskScheduler {
 
 별도의 쓰레드 풀 설정 없이 `ThreadPoolTaskScheduler`를 사용하면 **단일 쓰레드**가 작업 시간을 체크하면서 등록된 작업들을 처리한다.
 
-<img src="/assets/img/241125/defaultPoolSize.png" alt="defaultPoolSize" width="500">
+<img src="/assets/img/24/11/25/defaultPoolSize.png" alt="defaultPoolSize" width="500">
 
 <br>
 각각 등록되는 작업들에 대해서 단일 쓰레드가 예약 시간을 체크하고, 실행되어야 하는 작업까지 처리한다면 병목 현상이 발생할 것이다.
@@ -182,7 +182,7 @@ public ScheduledFuture<?> schedule(Runnable task, Instant startTime) {
 
 아래는 실제로 우선순위 큐 정렬기준으로 사용된 메서드다
 
-<img src="/assets/img/241125/method.png" alt="method" width="500">
+<img src="/assets/img/24/11/25/method.png" alt="method" width="500">
 
 <br>
 

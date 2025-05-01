@@ -29,7 +29,7 @@ tags:
 
 ## Stack의 구조 및 사용
 
-![stack](/assets/img/240317/stack.png)
+![stack](/assets/img/24/03/17/stack.png)
 
 상단(stack top) : 스택에서 입출력이 이루어지는 부분
 
@@ -49,7 +49,7 @@ tags:
 **Thread-safe**
 - 여러 쓰레드가 동시에 같은 Stack 인스턴스에 접근하더라도 한 쓰레드가 작업을 완료할 때까지 다른 쓰레드는 대기한다.
 
-![stack-vector](/assets/img/240317/stack-vector.png)
+![stack-vector](/assets/img/24/03/17/stack-vector.png)
 
 <br>
 
@@ -115,7 +115,7 @@ Vector 클래스가 오래되었고 그만큼 취약점도 많기 때문에 이�
 
 ## queue의 구조 및 사용
 
-![queue](/assets/img/240317/queue.png)
+![queue](/assets/img/24/03/17/queue.png)
 
 후방(back) : 큐에서 입력이 이루어지는 부분
 

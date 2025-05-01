@@ -12,7 +12,7 @@ tags:
 ## TDD는 무엇인가?
 - TLD를 논하기 전에 TDD가 무엇인지 간단하게 살펴보자.
 
-<img src="/assets/img/240830/tdd.png" alt="tdd" width="600">
+<img src="/assets/img/24/08/30/tdd.png" alt="tdd" width="600">
 
 - `Test-Driven Development`는
     1. RED - 테스트를 먼저 작성한 뒤
@@ -96,7 +96,7 @@ tags:
 
 #### [단위(소형) 테스트만 수행]
 
-<img src="/assets/img/240830/test.png" alt="test" width="600">
+<img src="/assets/img/24/08/30/test.png" alt="test" width="600">
 
 > 실제 UI를 통해 기능을 테스트하는 UI 테스트는 논외로 하겠다.
 
@@ -125,7 +125,7 @@ tags:
 
 #### [100% 커버리지 달성을 강제한다.]
 
-<img src="/assets/img/240830/coverage.png" alt="coverage" width="600">
+<img src="/assets/img/24/08/30/coverage.png" alt="coverage" width="600">
 
 - 100%가 정답인 것은 아니고, 불필요한 테스트도 여럿 추가될 수 있지만 100%로 강제하지 않으면 점점 안일해지고 커버리지가 낮아진다.
 - 따라서 여지를 주는 것 보다 100%로 강제하는 것이 좋다고 생각했다.

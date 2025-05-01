@@ -49,7 +49,7 @@ Git Hook은 크게 2종류로 나뉜다.
 
 전체 총 19개의 종류가 존재하지만, 이 글에서는 클라이언트 훅 중에서 주로 사용되는 것들만 다룬다
 
-<img src="/assets/img/250224/git_hook.png" style="border-radius:5px" alt="git_hook" width="800">
+<img src="/assets/img/25/02/24/git_hook.png" style="border-radius:5px" alt="git_hook" width="800">
 
 #### pre-commit
 
@@ -111,7 +111,7 @@ Git Hook은 크게 2종류로 나뉜다.
 
 ## 커밋 메시지 형식을 강제하고 이모지를 추가하여 가독성 높이기
 
-<img src="/assets/img/250224/commit.png" style="border-radius:5px" alt="commit" width="150">
+<img src="/assets/img/25/02/24/commit.png" style="border-radius:5px" alt="commit" width="150">
 
 형식을 강제하는 장치가 없을 때 벌어지는 문제점이 보이는가?
 <br>
@@ -119,7 +119,7 @@ Git Hook은 크게 2종류로 나뉜다.
 <br>
 우리는 Git Hook을 이용하여 문제를 예방하고 커밋 타입에 따라 이모지도 붙여서 커밋을 한눈에 볼 수 있다. 바로 아래 처럼 말이다
 
-<img src="/assets/img/250224/commit2.png" style="border-radius:5px" alt="commit2" width="150">
+<img src="/assets/img/25/02/24/commit2.png" style="border-radius:5px" alt="commit2" width="150">
 
 <br>
 

@@ -98,7 +98,7 @@ storage:
 
 ## DB 툴 연결 아키텍처
 
-<img src="/assets/img/250418/connect.png" style="border-radius:5px" alt="connect" width="800">
+<img src="/assets/img/25/04/18/connect.png" style="border-radius:5px" alt="connect" width="800">
 
 TLS 인증서로 인증된 클라이언트인지 확인하지만, 실제 연결은 Nginx의 `SSL Termination`으로 일반 TCP로 연결된다.
 
@@ -212,14 +212,14 @@ TLS 프로토콜에서 어떻게 서로를 신뢰할까?
 
 <br>
 
-<img src="/assets/img/250418/lets.png" style="border-radius:5px" alt="lets" width="400">
+<img src="/assets/img/25/04/18/lets.png" style="border-radius:5px" alt="lets" width="400">
 
 1. 자신의 비밀 키를 사용해서 서명이 필요한 인증서 파일을 만든다.
 2. 외부 CA가 서명을 함으로써 정상적인 인증서가 된다. 이때 CA의 비밀 키를 사용하여 서명을 한다.
 
 <br>
 
-<img src="/assets/img/250418/check1.png" style="border-radius:5px" alt="check1" width="600">
+<img src="/assets/img/25/04/18/check1.png" style="border-radius:5px" alt="check1" width="600">
 
 <ol start="3">
   <li>클라이언트는 서명된 인증서를 서버로 전달한다.
@@ -239,7 +239,7 @@ TLS 프로토콜에서 어떻게 서로를 신뢰할까?
 
 <br>
 
-<img src="/assets/img/250418/self.png" style="border-radius:5px" alt="self" width="400">
+<img src="/assets/img/25/04/18/self.png" style="border-radius:5px" alt="self" width="400">
 
 1. 비밀키 `mongoCA.key`를 이용해 자체 서명한 `mongoCA.crt`를 생성한다.
 2. 클라이언트가 사용할 비밀키로 똑같이 서명이 필요한 인증서 파일을 만든다.(`client.csr`)
@@ -250,7 +250,7 @@ TLS 프로토콜에서 어떻게 서로를 신뢰할까?
 
 <br>
 
-<img src="/assets/img/250418/merge.png" style="border-radius:5px" alt="merge" width="400">
+<img src="/assets/img/25/04/18/merge.png" style="border-radius:5px" alt="merge" width="400">
 
 <ol start="4">
   <li>편의를 위해 클라이언트 키와 클라이언트 인증서를 묶어 <code class="language-plaintext highlighter-rouge">client.pem</code>으로 만든다.
@@ -265,7 +265,7 @@ TLS 프로토콜에서 어떻게 서로를 신뢰할까?
 
 <br>
 
-<img src="/assets/img/250418/check2.png" style="border-radius:5px" alt="check2" width="600">
+<img src="/assets/img/25/04/18/check2.png" style="border-radius:5px" alt="check2" width="600">
 
 <ol start="5">
   <li>클라이언는 서명된 인증서를 서버로 전달한다.</li>
@@ -329,19 +329,19 @@ server {
 
 <br>
 
-<img src="/assets/img/250418/connect1.png" style="border-radius:5px" alt="connect1" width="800">
+<img src="/assets/img/25/04/18/connect1.png" style="border-radius:5px" alt="connect1" width="800">
 
 먼저 `General` 탭에서 연결할 호스트를 넣어준다.
 
 <br>
 
-<img src="/assets/img/250418/connect2.png" style="border-radius:5px" alt="connect2" width="800">
+<img src="/assets/img/25/04/18/connect2.png" style="border-radius:5px" alt="connect2" width="800">
 
 `Authentication` 탭에서 유저명, 비밀번호, DB명을 넣어준다.
 
 <br>
 
-<img src="/assets/img/250418/connect3.png" style="border-radius:5px" alt="connect3" width="800">
+<img src="/assets/img/25/04/18/connect3.png" style="border-radius:5px" alt="connect3" width="800">
 
 `TLS/SSL` 탭에서 `SSL/TLS Connection`을 On으로 설정하고, `Client Certificate and Key(.pem)` 에 생성한 `client.pem` 파일을 넣어준다.
 <br>

@@ -45,7 +45,7 @@ MongoDB는 WiredTiger 엔진의 `도큐먼트 수준 잠금`을 이용해 트랜
 
 [공식 문서](https://source.wiredtiger.com/11.0.0/arch-btree.html)와 [카카오 기술 블로그](https://tech.kakao.com/posts/688)에 따르면 B+ Tree 기반 인메모리 페이지 시스템을 사용하며, 실제 도큐먼트의 위치 정보는 B+ Tree 리프 노드의 레코드 슬롯에 위치한다.
 
-<img src="/assets/img/250501/b+tree.png" style="border-radius:5px" alt="b+tree" width="700">
+<img src="/assets/img/25/05/01/b+tree.png" style="border-radius:5px" alt="b+tree" width="700">
 
 위 그림에서 리프 노드에 해당하는 페이지(WT_PAGE)는 여러 개의 WT_ROW 배열로 구성되어 있다.
 <br>
@@ -56,7 +56,7 @@ MongoDB는 WiredTiger 엔진의 `도큐먼트 수준 잠금`을 이용해 트랜
 
 ## 쓰기 작업 프로세스
 
-<img src="/assets/img/250501/update_chain.png" style="border-radius:5px" alt="update_chain" width="800">
+<img src="/assets/img/25/05/01/update_chain.png" style="border-radius:5px" alt="update_chain" width="800">
 > 카카오 블로그 중 일부
 
 <br>
@@ -70,7 +70,7 @@ update_chain에는 새로운 **쓰기 작업의 결과**가 차례대로 저장�
 <br>
 WiredTiger 엔진의 락 메커니즘과 데이터 구조 덕분에, MongoDB에서 단일 도큐먼트에 대한 쓰기 연산에서 동시성과 원자성을 보장받는다.
 
-<img src="/assets/img/250501/update_process.png" style="border-radius:5px" alt="update_process" width="800">
+<img src="/assets/img/25/05/01/update_process.png" style="border-radius:5px" alt="update_process" width="800">
 
 <br>
 

@@ -55,7 +55,7 @@ tags:
 
 위의 문제를 개선하기 위해 MVC 패턴 도입 후에는 **URL 매핑 정보를 애노테이션과 코드로 관리했다.**
 
-<img src="/assets/img/250118/MVC.png" style="border-radius:5px" alt="MVC" width="600">
+<img src="/assets/img/25/01/18/MVC.png" style="border-radius:5px" alt="MVC" width="600">
 
 ```java
 // 서블릿과 URL 매핑
@@ -95,7 +95,7 @@ MVC 패턴의 도입으로 URL 매핑, 요청 처리가 개선되었지만 아�
 
 ## Front Controller
 
-<img src="/assets/img/250118/front_controller.png" style="border-radius:5px" alt="front_controller" width="600">
+<img src="/assets/img/25/01/18/front_controller.png" style="border-radius:5px" alt="front_controller" width="600">
 
 상속을 사용하여 URL 요청에 대한 비즈니스 로직만 정의하고, 나머지 로직은 모두 프론트 컨트롤러에서 처리된다.
 <br>
@@ -218,7 +218,7 @@ MVC 패턴의 도입으로 URL 매핑, 요청 처리가 개선되었지만 아�
 이로써 위에서 언급한 모든 문제를 해결하였다.
 <br>
 
-<img src="/assets/img/250118/introduce.png" style="border-radius:5px" alt="introduce" width="600">
+<img src="/assets/img/25/01/18/introduce.png" style="border-radius:5px" alt="introduce" width="600">
 
 <br>
 
@@ -229,7 +229,7 @@ MVC 패턴의 도입으로 URL 매핑, 요청 처리가 개선되었지만 아�
 - DTO와 유사한 기능을 수행하는 `ModelAndView`
 - 어댑터를 통해 개선한 컨트롤러 구조의 유연성 등
 
-<img src="/assets/img/250118/DispatcherServlet.png" style="border-radius:5px" alt="DispatcherServlet" width="600">
+<img src="/assets/img/25/01/18/DispatcherServlet.png" style="border-radius:5px" alt="DispatcherServlet" width="600">
 
 > DispatcherServlet은 모든 요청을 중앙에서 처리하고 적절한 핸들러로 요청을 분배하는 역할을 한다.
 {: .prompt-info }

@@ -53,7 +53,7 @@ tags:
 <br>
 사실 위의 목적보다는 동일한 공유기 도메인으로 알맞는 다른 프로젝트들로 요청을 분배하기 위한 목적으로 사용한다.
 
-<img src="/assets/img/250408/load_balancer.png" style="border-radius:5px" alt="load_balancer" width="800">
+<img src="/assets/img/25/04/08/load_balancer.png" style="border-radius:5px" alt="load_balancer" width="800">
 
 > 당연히 포트포워딩 정보에 따라 실제 목적지 포트 번호는 다를 수 있다.
 
@@ -70,7 +70,7 @@ AWS의 `Network LoadBalancer`는 4계층만 지원하고, `Application LoadBalan
 
 #### SSL
 
-<img src="/assets/img/250408/ssl.png" style="border-radius:5px" alt="ssl" width="500">
+<img src="/assets/img/25/04/08/ssl.png" style="border-radius:5px" alt="ssl" width="500">
 
 HTTPS 통신을 위해 TLS 인증서를 적용한다.
 <br>
@@ -227,7 +227,7 @@ conf 파일을 정의해놓고 뒤에서 `include`로 넣어줄 것이다.
 <br>
 7계층인 `http` 블록 안의 `server` 블록 각각을 `sites-available`에 나눠서 관리한다.
 
-<img src="/assets/img/250408/sites_available.png" style="border-radius:5px" alt="sites_available" width="700">
+<img src="/assets/img/25/04/08/sites_available.png" style="border-radius:5px" alt="sites_available" width="700">
 
 위 이미지에서 프로젝트1, 프로젝트2의 심볼릭 링크만 있으므로 프로젝트3 설정은 활성화되지 않는다.
 
@@ -290,7 +290,7 @@ sudo ufw allow 10000 # 해당 사이트에 대한 방화벽 허용
 
 > 추가로 포트포워딩 설정이 필요하다.
 
-<img src="/assets/img/250408/test.png" style="border-radius:5px" alt="test" width="400">
+<img src="/assets/img/25/04/08/test.png" style="border-radius:5px" alt="test" width="400">
 
 <br>
 
@@ -371,7 +371,7 @@ server {
 
 > nginx reload 수행
 
-<img src="/assets/img/250408/ssl_complete.png" style="border-radius:5px" alt="ssl_complete" width="300">
+<img src="/assets/img/25/04/08/ssl_complete.png" style="border-radius:5px" alt="ssl_complete" width="300">
 
 <br>
 

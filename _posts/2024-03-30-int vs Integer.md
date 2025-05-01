@@ -32,7 +32,7 @@ tags:
 <code class="language-plaintext highlighter-rouge">Wrapper class</code>는 자바의 기본 자료형을 객체로 다룰 수 있게 해주는 클래스이다.
 </div>
 
-![wrapper class](/assets/img/240330/wrapper%20class.png)
+![wrapper class](/assets/img/24/03/30/wrapper%20class.png)
 
 <br>
 
@@ -46,7 +46,7 @@ tags:
 ## autoboxing, unboxing
 - 자바 5부터 `autoboxing`과 `unboxing`을 지원한다. 이는 int 와 Integer 사이의 변환을 자동으로 해준다.
 
-![boxing](/assets/img/240330/boxing.png)
+![boxing](/assets/img/24/03/30/boxing.png)
 
 #### Autoboxing
 - 기본 자료형의 값을 해당 래퍼 클래스의 객체로 자동으로 변환하는 과정이다.

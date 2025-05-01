@@ -53,13 +53,13 @@ tags:
 장치 구성에 따라 할당되는 IP가 바뀔 수 있는데, 외부에서 같은 장비에 접속하려면 고정을 시켜주어야 한다.
 <br>
 
-<img src="/assets/img/250321/dhcp.png" style="border-radius:5px" alt="dhcp" width="700">
+<img src="/assets/img/25/03/21/dhcp.png" style="border-radius:5px" alt="dhcp" width="700">
 
 각 공유기 사이트에 접속해서 메뉴들을 찾아보면 DHCP와 관련된 설정 페이지가 있다.
 <br>
 장치의 MAC 주소와 할당할 IP주소를 부여하여 고정시킬 수 있다.
 
-<img src="/assets/img/250321/mac.png" style="border-radius:5px" alt="mac" width="700">
+<img src="/assets/img/25/03/21/mac.png" style="border-radius:5px" alt="mac" width="700">
 
 MAC 주소는 공유기의 검색 기능으로 확인하거나 `ifconfig` 명령어로 확인한다.
 <br>
@@ -69,7 +69,7 @@ MAC 주소는 공유기의 검색 기능으로 확인하거나 `ifconfig` 명령
 <br>
 정상적으로 적용되면 할당 정보에서 확인할 수 있다.
 
-<img src="/assets/img/250321/dhcp2.png" style="border-radius:5px" alt="dhcp2" width="700">
+<img src="/assets/img/25/03/21/dhcp2.png" style="border-radius:5px" alt="dhcp2" width="700">
 
 <br>
 
@@ -84,18 +84,18 @@ IP 자원을 절약하기 위해서, 대부분의 가정용 공유기는 IP가 �
 <br>
 iptime 같은 공유기는 자체 도메인(`iptime.org`)을 제공하지만, 나처럼 서드파티 도메인을 사용해야 하는 경우가 있다.
 
-<img src="/assets/img/250321/ddns_setting.png" style="border-radius:5px" alt="ddns_setting" width="700">
+<img src="/assets/img/25/03/21/ddns_setting.png" style="border-radius:5px" alt="ddns_setting" width="700">
 
 나는 무료로 사용 가능한 freedns를 선택했다.
 <br>
 사용자 등록을 눌러 [https://freedns.afraid.org/](https://freedns.afraid.org/) 홈페이지로 이동해준다.
 <br>
 
-<img src="/assets/img/250321/signup.png" style="border-radius:5px" alt="signup" width="800">
+<img src="/assets/img/25/03/21/signup.png" style="border-radius:5px" alt="signup" width="800">
 
 Sign up Free를 눌러 회원가입을 진행한다.
 
-<img src="/assets/img/250321/subdomain.png" style="border-radius:5px" alt="subdomain" width="500">
+<img src="/assets/img/25/03/21/subdomain.png" style="border-radius:5px" alt="subdomain" width="500">
 
 왼쪽 Subdomains 탭에서 add 버튼을 눌러 서브도메인을 등록한다.
 <br>
@@ -107,7 +107,7 @@ IPv4로 연결해주는 A레코드를 선택하고 서브도메인, 도메인 �
 <br>
 또한 ip주소가 바뀔 때마다 ddns 설정을 자동으로 업데이트하게 될 것이다.
 
-<img src="/assets/img/250321/ddns_setting2.png" style="border-radius:5px" alt="ddns_setting2" width="400">
+<img src="/assets/img/25/03/21/ddns_setting2.png" style="border-radius:5px" alt="ddns_setting2" width="400">
 
 <br>
 
@@ -132,9 +132,9 @@ xxx.mooo.com:10010 -> DB
 
 마찬가지로 포트포워딩은 공유기의 설정 페이지에서 설정할 수 있다.
 
-<img src="/assets/img/250321/port_forwarding.png" style="border-radius:5px" alt="port_forwarding" width="600">
+<img src="/assets/img/25/03/21/port_forwarding.png" style="border-radius:5px" alt="port_forwarding" width="600">
 
-<img src="/assets/img/250321/port_forwarding2.png" style="border-radius:5px" alt="port_forwarding2" width="500">
+<img src="/assets/img/25/03/21/port_forwarding2.png" style="border-radius:5px" alt="port_forwarding2" width="500">
 
 외부에 노출할 포트와 홈서버 ip, 연결할 내부 포트를 설정하면 된다.
 
@@ -145,7 +145,7 @@ xxx.mooo.com:10010 -> DB
 
 ## 결과 확인
 
-<img src="/assets/img/250321/result.png" style="border-radius:5px" alt="result" width="400">
+<img src="/assets/img/25/03/21/result.png" style="border-radius:5px" alt="result" width="400">
 
 제대로 설정을 완료했다면 인터넷에서 `도메인주소:포트`를 사용하여 정상적으로 접근할 수 있다.
 <br>

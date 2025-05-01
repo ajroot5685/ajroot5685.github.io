@@ -117,7 +117,7 @@ CI/CD 환경에서 테스트하기 전에 로컬에서 파일들이 잘 작동�
 
 [여기](https://danawalab.github.io/common/2022/08/24/Self-Hosted-Runner.html)에 잘 설명이 되어있지만, Linux 기준으로 다시 설명한다.
 
-<img src="/assets/img/250411/self_hosted.png" style="border-radius:5px" alt="self_hosted" width="800">
+<img src="/assets/img/25/04/11/self_hosted.png" style="border-radius:5px" alt="self_hosted" width="800">
 
 깃허브 액션을 사용하고자 하는 레포지토리에서 Settings - Actions - Runners로 이동한다.
 <br>
@@ -134,7 +134,7 @@ sudo ./svc.sh start
 
 가이드의 configure 단계를 따라 저장소에 잘 연결되었다면 깃허브의 runners에 보여질 것이다.
 
-<img src="/assets/img/250411/runners.png" style="border-radius:5px" alt="runners" width="800">
+<img src="/assets/img/25/04/11/runners.png" style="border-radius:5px" alt="runners" width="800">
 
 <br>
 
@@ -144,7 +144,7 @@ sudo ./svc.sh start
 <br>
 중요한 파일이나 변수들은 레포지토리의 비밀변수로 설정하여 노출되지 않도록 하자.
 
-<img src="/assets/img/250411/secrets.png" style="border-radius:5px" alt="secrets" width="800">
+<img src="/assets/img/25/04/11/secrets.png" style="border-radius:5px" alt="secrets" width="800">
 
 레포지토리의 Settings - Secrets and variables - Actions 에서 비밀 변수를 추가할 수 있다.
 <br>
@@ -245,7 +245,7 @@ ufw도 iptables를 조작하지만 도커 방화벽 정책의 우선순위가 �
 <br>
 여기서 설정되는 도커의 우선순위가 ufw 우선순위보다 높기 때문에 ufw로 도커 컨테이너 방화벽을 제어할 수 없는 것이다.
 
-<img src="/assets/img/250411/iptables.png" style="border-radius:5px" alt="iptables" width="600">
+<img src="/assets/img/25/04/11/iptables.png" style="border-radius:5px" alt="iptables" width="600">
 
 <br>
 

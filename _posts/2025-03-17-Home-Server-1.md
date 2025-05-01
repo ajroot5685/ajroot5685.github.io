@@ -36,8 +36,8 @@ AWS 프리티어, GCP 무료 크레딧 같은 정책들이 있지만 성능도 �
 | 활용 용도  | 데이터센터, 기업용   | 개인, 소규모 서버   |
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 800px">
-  <img src="/assets/img/250317/rack.png" style="border-radius:5px" alt="rack" width="380">
-  <img src="/assets/img/250317/mini.png" style="border-radius:5px" alt="mini" width="380">
+  <img src="/assets/img/25/03/17/rack.png" style="border-radius:5px" alt="rack" width="380">
+  <img src="/assets/img/25/03/17/mini.png" style="border-radius:5px" alt="mini" width="380">
 </div>
 
 미니PC는 한손에 들어올 정도로 컴팩트한 제품이고, 서버랙은 여러 장치(전원유지장치, 허브 등)를 연결해 고성능을 제공할 뿐만 아니라 정전에도 대비할 수 있는 제품이다.
@@ -97,19 +97,19 @@ RAM - 삼성 DDR4 PC4-25600 노트북용 램 16GB
 
 ## 조립 과정
 
-<img src="/assets/img/250317/make1.jpg" style="border-radius:5px" alt="make1" width="300">
+<img src="/assets/img/25/03/17/make1.jpg" style="border-radius:5px" alt="make1" width="300">
 
 두근두근 박스깡
 
 <br>
 
-<img src="/assets/img/250317/make2.jpg" style="border-radius:5px" alt="make2" width="350">
+<img src="/assets/img/25/03/17/make2.jpg" style="border-radius:5px" alt="make2" width="350">
 
 작다는 것에 의심이 갔었는데 진짜 작긴 했다.
 
 <br>
 
-<img src="/assets/img/250317/make3.jpg" style="border-radius:5px" alt="make3" width="350">
+<img src="/assets/img/25/03/17/make3.jpg" style="border-radius:5px" alt="make3" width="350">
 
 드라이버로 낑낑대며 나사를 풀었다. 드릴 있으면 좋을듯
 <br>
@@ -117,19 +117,19 @@ RAM - 삼성 DDR4 PC4-25600 노트북용 램 16GB
 
 <br>
 
-<img src="/assets/img/250317/make4.jpg" style="border-radius:5px" alt="make4" width="350">
+<img src="/assets/img/25/03/17/make4.jpg" style="border-radius:5px" alt="make4" width="350">
 
 NVMe SSD를 구입했으므로 맞는 위치에 딱 소리나게 끼워주고 나사로 조여준다.
 
 <br>
 
-<img src="/assets/img/250317/make5.jpg" style="border-radius:5px" alt="make5" width="350">
+<img src="/assets/img/25/03/17/make5.jpg" style="border-radius:5px" alt="make5" width="350">
 
 사진은 램2개지만.. 16GB짜리 램 하나를 끼워주면 완성이다.
 
 <br>
 
-<img src="/assets/img/250317/make6.jpg" style="border-radius:5px" alt="make6" width="500">
+<img src="/assets/img/25/03/17/make6.jpg" style="border-radius:5px" alt="make6" width="500">
 
 그대로 부팅하면 OS가 없는 상태이므로 위와 같은 화면이 뜬다.
 
@@ -145,4 +145,4 @@ NVMe SSD를 구입했으므로 맞는 위치에 딱 소리나게 끼워주고 �
 
 SSH 터미널로 서버를 관리할 것이기 때문에 필요없긴 하지만, **한/영 설정**을 하고 싶다면 [여기](https://andrewpage.tistory.com/390)를 참고하면 되겠다.
 
-<img src="/assets/img/250317/make7.jpg" style="border-radius:5px" alt="make7" width="700">
+<img src="/assets/img/25/03/17/make7.jpg" style="border-radius:5px" alt="make7" width="700">

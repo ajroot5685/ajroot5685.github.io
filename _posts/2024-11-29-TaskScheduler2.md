@@ -56,7 +56,7 @@ tags:
 
 #### [FCM]
 
-<img src="/assets/img/241128/fcm.png" alt="fcm" width="200">
+<img src="/assets/img/24/11/28/fcm.png" alt="fcm" width="200">
 
 `Firebase Cloud Messaging`은 단일 발송, 여러건 발송을 모두 지원하고, FCM에게 보내는 요청 자체는 큰 차이가 없다.
 <br>
@@ -148,11 +148,11 @@ FCM에게 보내는 요청은 300ms가 소요된다고 가정한다.
 
 ## 개선율
 
-<img src="/assets/img/241128/improvement.png" alt="improvement" width="300">
+<img src="/assets/img/24/11/28/improvement.png" alt="improvement" width="300">
 
-<img src="/assets/img/241128/result.png" alt="result" width="300">
+<img src="/assets/img/24/11/28/result.png" alt="result" width="300">
 
-<img src="/assets/img/241128/letsgo.png" alt="letsgo" width="400">
+<img src="/assets/img/24/11/28/letsgo.png" alt="letsgo" width="400">
 
 ## 결론
 

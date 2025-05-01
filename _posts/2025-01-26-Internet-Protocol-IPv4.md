@@ -19,7 +19,7 @@ IP 프로토콜의 주소체계 중 IPv4에 대해 알아보자.
 
 ## IP Protocol
 
-<img src="/assets/img/250126/osi.png" style="border-radius:5px" alt="osi" width="600">
+<img src="/assets/img/25/01/26/osi.png" style="border-radius:5px" alt="osi" width="600">
 
 OSI 7계층 중에서 네트워크 계층인 3계층에는 여러 프로토콜이 있다.
 <br>
@@ -41,7 +41,7 @@ IANA가 최상위 관리 기관으로서 전세계 IP 주소를 관리한다.
 <br>
 또, 책임을 분리하여 지역적으로 관리하는 RIR, 국가 단위로 관리하는 NIR, 일반 사용자/기업에게 IP 주소를 제공하는 ISP까지 책임이 분리된다.
 
-<img src="/assets/img/250126/ip_management.png" style="border-radius:5px" alt="ip_management" width="700">
+<img src="/assets/img/25/01/26/ip_management.png" style="border-radius:5px" alt="ip_management" width="700">
 
 <br>
 
@@ -53,11 +53,11 @@ IANA가 최상위 관리 기관으로서 전세계 IP 주소를 관리한다.
 <br>
 따라서 아래 그림과 같이 10진수로 변환한 IP 주소를 사용하여 사람이 좀 더 쉽게 이해할 수 있도록 변환해서 사용한다.
 
-<img src="/assets/img/250126/ip_present.png" style="border-radius:5px" alt="ip_present" width="800">
+<img src="/assets/img/25/01/26/ip_present.png" style="border-radius:5px" alt="ip_present" width="800">
 
 8비트씩 묶어서 `.`으로 구분하며, IP 주소의 범위는 다음과 같다
 
-<img src="/assets/img/250126/ip_range.png" style="border-radius:5px" alt="ip_present" width="800">
+<img src="/assets/img/25/01/26/ip_range.png" style="border-radius:5px" alt="ip_present" width="800">
 
 32비트의 숫자 개수는 $2^{32}$이고, 약 43억이다.
 
@@ -96,7 +96,7 @@ IP주소는 네트워크 부와 호스트 부로 구성된다.
 **위치**
 - IP 주소 뒤쪽에 위치한다
 
-<img src="/assets/img/250126/ip_bu.png" style="border-radius:5px" alt="ip_bu" width="800">
+<img src="/assets/img/25/01/26/ip_bu.png" style="border-radius:5px" alt="ip_bu" width="800">
 
 <br>
 
@@ -116,7 +116,7 @@ IPv4주소를 네트워크 크기에 따라 나누는 초기 방식이다.
 | **B**      | 16비트(네트워크 부) + 16비트(호스트 부) | 10으로 시작 | `128.0.0.0 ~ 191.255.255.255`    | 16,384개 (2¹⁴)        | 약 6만 5천 개 (2¹⁶ - 2)     | 약 10억 개 (2³⁰)      | 대학, 중견 기업 등 중간 규모  |
 | **C**      | 24비트(네트워크 부) + 8비트(호스트 부)  | 110으로 시작| `192.0.0.0 ~ 223.255.255.255`    | 약 209만 개 (2²¹)     | 254개 (2⁸ - 2)             | 약 5억 3천만 개 (2²⁹) | 소기업, 가정 등 소규모 네트워크 |
 
-<img src="/assets/img/250126/ip_class.png" style="border-radius:5px" alt="ip_class" width="800">
+<img src="/assets/img/25/01/26/ip_class.png" style="border-radius:5px" alt="ip_class" width="800">
 
 <br>
 
@@ -136,7 +136,7 @@ IPv4주소를 네트워크 크기에 따라 나누는 초기 방식이다.
 
 <br>
 
-<img src="/assets/img/250126/ipv4_exhaustion.png" style="border-radius:5px" alt="ipv4_exhaustion" width="800">
+<img src="/assets/img/25/01/26/ipv4_exhaustion.png" style="border-radius:5px" alt="ipv4_exhaustion" width="800">
 
 > 위 사진은 IPv4 주소 고갈 타임라인이다.
 

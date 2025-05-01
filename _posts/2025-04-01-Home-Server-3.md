@@ -204,7 +204,7 @@ sudo systemctl restart ssh
 
 > 우분투 24.04에서 설치하는 ssh에는 sshd가 통합되어 있다. 따라서 sshd가 아닌 ssh를 재시작한다.
 
-<img src="/assets/img/250401/ssh.png" style="border-radius:5px" alt="ssh" width="400">
+<img src="/assets/img/25/04/01/ssh.png" style="border-radius:5px" alt="ssh" width="400">
 
 <br>
 
@@ -327,7 +327,7 @@ sudo systemctl status fail2ban
 
 OTP를 여러번 틀려 밴처리 되었다면, 응답하지 않고 타임아웃 처리된다.
 
-<img src="/assets/img/250401/timeout.png" style="border-radius:5px" alt="timeout" width="600">
+<img src="/assets/img/25/04/01/timeout.png" style="border-radius:5px" alt="timeout" width="600">
 
 <br>
 

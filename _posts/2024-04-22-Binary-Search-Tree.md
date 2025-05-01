@@ -13,7 +13,7 @@ tags:
 - 이진 트리 기반의 탐색을 위한 자료구조이다.
 - 노드의 왼쪽 자식은 부모의 값보다 작은 값을 가져야 하며 노드의 오른쪽 자식은 부모의 값보다 큰 값을 가져야 한다.
 
-![BST](/assets/img/240421/bst.png)
+![BST](/assets/img/24/04/21/bst.png)
 
 <br>
 
@@ -62,7 +62,7 @@ tags:
 3. 현재 탐색 노드가 null일 때까지 1~2 를 반복한다.
 4. 현재 탐색 노드가 null이면 해당 자리에 노드를 생성하고, 부모와의 자식 관계를 설정한다.
 
-![insert](/assets/img/240422/bst%20insert.png)
+![insert](/assets/img/24/04/22/bst%20insert.png)
 
 <br>
 
@@ -72,15 +72,15 @@ tags:
 1. 삭제하는 노드가 자식노드를 갖고 있지 않을 때
     - 해당 노드만 삭제하면 된다.
 
-        <img src="/assets/img/240422/bst%20delete1.jpg" alt="delete1" width=500>
+        <img src="/assets/img/24/04/22/bst%20delete1.jpg" alt="delete1" width=500>
 2. 삭제하는 노드가 하나의 자식노드를 갖고 있을 때
     - 삭제한 노드 위치에 자식 노드를 넣으면 된다.
 
-        <img src="/assets/img/240422/bst%20delete2.jpg" alt="delete2" width=500>
+        <img src="/assets/img/24/04/22/bst%20delete2.jpg" alt="delete2" width=500>
 3. 삭제하는 노드가 두 개의 자식 노드를 갖고 있을 때
     - 2번 처럼 그냥 자식노드를 넣어버리면 자식노드가 3개가 되므로 이진 트리의 조건을 만족하지 않게 된다.
 
-        <img src="/assets/img/240422/bst%20delete3.jpg" alt="delete3" width=500>
+        <img src="/assets/img/24/04/22/bst%20delete3.jpg" alt="delete3" width=500>
 
     - 다음 2가지 방법을 사용할 수 있다.
     1. 삭제된 노드의 오른쪽 자식노드에서 제일 작은 노드로 대체한다.
@@ -88,11 +88,11 @@ tags:
 
     - 1번 예시
 
-        <img src="/assets/img/240422/bst%20delete4.jpg" alt="delete4" width=500>
+        <img src="/assets/img/24/04/22/bst%20delete4.jpg" alt="delete4" width=500>
     
     - 이 방법이 가능한 이유는 1번의 경우 `50 < x < 70` 이고, 2번의 경우 `20 < y < 50` 이기 때문이다.
 
-        <img src="/assets/img/240422/bst%20delete5.jpg" alt="delete5" width=300>
+        <img src="/assets/img/24/04/22/bst%20delete5.jpg" alt="delete5" width=300>
 
 
 <br>

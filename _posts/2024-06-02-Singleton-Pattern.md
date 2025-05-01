@@ -17,7 +17,7 @@ tags:
 #### [여러 개의 웹 요청이 들어올 때]
 - 만약 싱글톤 패턴을 사용하지 않는다면, 한 번에 여러 개의 요청이 들어올 때마다 해당 요청을 처리하기 위한 객체들이 여러 개 생성될 것이다.
 
-    <img src="/assets/img/240602/singleton1.png" alt="singleton1" width=600>
+    <img src="/assets/img/24/06/02/singleton1.png" alt="singleton1" width=600>
 
 - 모든 요청에 대해 각각 객체가 생성되고 소멸되는 것은 메모리 낭비가 심하다.
     > 객체 조회 오버헤드가 1이라고 가정하면, 객체 생성에는 1000의 오버헤드가 발생한다.
@@ -99,7 +99,7 @@ public class Singleton {
 - 스프링에서 **스프링 컨테이너**는 빈으로 등록된 객체들을 기본적으로 싱글톤으로 관리해준다.
 - 덕분에 싱글톤 패턴을 위한 추가적인 코드가 들어가지 않아도 되고, `DIP, OCP, 테스트, private 생성자`로부터 자유롭게 싱글톤을 사용할 수 있다.
 
-<img src="/assets/img/240602/singleton2.png" alt="singleton2" width=600>
+<img src="/assets/img/24/06/02/singleton2.png" alt="singleton2" width=600>
 
 <br>
 

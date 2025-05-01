@@ -128,7 +128,7 @@ IPv4의 주소 부족 문제를 개선한다
 
 일반 가정 PC에서 구글 서버에 접속하는 과정을 예시로 보겠다
 
-<img src="/assets/img/250210/pat.png" style="border-radius:5px" alt="pat" width="800">
+<img src="/assets/img/25/02/10/pat.png" style="border-radius:5px" alt="pat" width="800">
 
 1. 클라이언트(PC)가 인터넷 접속 요청을 보냄
 - 사설 IP : 192.168.1.10:5000 → 목적지 : 8.8.8.8:80(구글)
@@ -198,4 +198,4 @@ NAT에서 변환된 IP 및 포트 정보는 일시적으로 유지되며, 일반
 <br>
 가정의 공유기에 접속해서 연결된 기기들의 IP주소를 확인할 수 있다.
 
-<img src="/assets/img/250210/dhcp.png" style="border-radius:5px" alt="dhcp" width="600">
+<img src="/assets/img/25/02/10/dhcp.png" style="border-radius:5px" alt="dhcp" width="600">

@@ -123,7 +123,7 @@ public interface HandlerInterceptor{
 }
 ```
 
-<img src="/assets/img/240430/interceptor-flow.png" alt="interceptor-flow" width=700>
+<img src="/assets/img/24/04/30/interceptor-flow.png" alt="interceptor-flow" width=700>
 
 - 스프링은 preHandle, postHandle, afterCompletion 3가지의 메서드를 사용할 수 있습니다. 하나씩 간단하게 알아보겠습니다.
 
@@ -162,7 +162,7 @@ public interface HandlerInterceptor{
 - 클라이언트가 일정 시간 동안 활동이 없거나, 로그아웃을 하면 세션은 서버에서 만료됩니다.
 - 세션의 만료 시간은 서버 설정에 따라 다르며, 세션 만료 후 클라이언트는 다시 로그인해야 합니다.
 
-<img src="/assets/img/240430/session.png" alt="session" width=500>
+<img src="/assets/img/24/04/30/session.png" alt="session" width=500>
 
 <br>
 

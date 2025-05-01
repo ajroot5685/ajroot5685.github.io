@@ -63,7 +63,7 @@ public class Log {
 
 ## 로깅 설정 커스터마이징
 - 기본적으로 스프링부트에는 로깅 기본설정이 존재하여 빌드할 때 다음 콘솔 화면을 볼 수 있다.
-    <img src="/assets/img/240823/logging1.png" alt="logging1" width="800">
+    <img src="/assets/img/24/08/23/logging1.png" alt="logging1" width="800">
 - 여기서 더 나아가 우리가 원하는대로 로깅 설정을 하려면 `logback-spring.xml` 파일을 생성하여 직접 설정을 해줘야 한다.
 
 <br>
@@ -136,7 +136,7 @@ public class Log {
 ```
 - \<property>로 로그의 패턴을 정의했다.
     - `%highlight()` 를 사용하여 로그 레벨 별로 다른 색깔로 출력하도록 설정하였다.
-        <img src="/assets/img/240823/logging2.png" alt="logging2" width="600">
+        <img src="/assets/img/24/08/23/logging2.png" alt="logging2" width="600">
 
     > property는 다른 property의 값도 사용 가능하다.
 - \<appender>에서 정의한 패턴을 이용하면서, 출력 대상을 콘솔로 설정했다.
@@ -148,16 +148,16 @@ public class Log {
 - 슬랙으로 알람을 보내기 위해 슬랙에서 `Webhook URL`을 생성해야 한다.
 
 1. 채널의 통합 탭에서 **앱 추가**를 누른다.
-    <img src="/assets/img/240823/slack1.png" alt="slack1" width="600">
+    <img src="/assets/img/24/08/23/slack1.png" alt="slack1" width="600">
 
 2. `incoming webhooks` 를 검색하고 설치한다.
-    <img src="/assets/img/240823/slack2.png" alt="slack2" width="600">
+    <img src="/assets/img/24/08/23/slack2.png" alt="slack2" width="600">
 
 3. 웹페이지에서 연결할 채널을 선택하고 추가한다.
-    <img src="/assets/img/240823/slack3.png" alt="slack3" width="600">
+    <img src="/assets/img/24/08/23/slack3.png" alt="slack3" width="600">
 
 4. 원하는대로 웹훅에 대한 세팅을 마친 뒤 **Weghook URL**을 기록해둔다.
-    <img src="/assets/img/240823/slack4.png" alt="slack4" width="600">
+    <img src="/assets/img/24/08/23/slack4.png" alt="slack4" width="600">
 
 <br>
 
@@ -187,7 +187,7 @@ public class Log {
         emoji: rotating_light
     ```
 - 결과를 먼저 보여주자면 다음과 같다.
-    <img src="/assets/img/240823/slack5.png" alt="slack5" width="800">
+    <img src="/assets/img/24/08/23/slack5.png" alt="slack5" width="800">
 
 <br>
 
@@ -269,9 +269,9 @@ public class TestController {
 }
 ```
 - `@Slf4j`를 통해 쉽게 에러 로그를 찍을 수 있다.
-    <img src="/assets/img/240823/slack6.png" alt="slack6" width="800">
+    <img src="/assets/img/24/08/23/slack6.png" alt="slack6" width="800">
 - 지금까지 잘 설정되었다면 슬랙 채널에도 알림이 정상적으로 발송되었을 것이다.
-    <img src="/assets/img/240823/slack7.png" alt="slack7" width="800">
+    <img src="/assets/img/24/08/23/slack7.png" alt="slack7" width="800">
 
 <br>
 
@@ -338,7 +338,7 @@ for (int i = 0; i < stackTraceElements.length; i++) {
             + " (Line: " + element.getLineNumber() + ")");
 }
 ```
-<img src="/assets/img/240823/stacktrace1.png" alt="stacktrace1" width="600">
+<img src="/assets/img/24/08/23/stacktrace1.png" alt="stacktrace1" width="600">
 
 - 확인을 해보니 2번째 인덱스에 내가 원하는 클래스와 메서드가 나열되어 있다.
 - 서비스 레이어에서만 에러를 발생시키고, 컨트롤러와 서비스 레이어 간 중간레이어가 없으므로 2번 인덱스의 데이터를 그대로 사용하기로 했다.
@@ -374,4 +374,4 @@ private void errorLogging(StackTraceElement[] stackTrace, ErrorCode errorCode, I
 ```
 
 - 이렇게 에러가 발생하면 바로 나의 개인채널로 알림이 오도록 설정이 완료됐다.
-    <img src="/assets/img/240823/slack8.png" alt="slack8" width="800">
+    <img src="/assets/img/24/08/23/slack8.png" alt="slack8" width="800">

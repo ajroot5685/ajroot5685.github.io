@@ -47,8 +47,8 @@ protected Object invokeWithinTransaction(Method method, @Nullable Class<?> targe
 1. 프록시 생성
 - `@Transactional`이 설정된 메서드를 호출하면, `Spring AOP` 가 동작하여 메서드 호출을 가로채는 프록시 객체가 생성된다.
 
-    <img src="/assets/img/241117/before_proxy.png" alt="before_proxy" width="400">
-    <img src="/assets/img/241117/after_proxy.png" alt="after_proxy" width="600">
+    <img src="/assets/img/24/11/17/before_proxy.png" alt="before_proxy" width="400">
+    <img src="/assets/img/24/11/17/after_proxy.png" alt="after_proxy" width="600">
 
 2. 트랜잭션 시작
 - 프록시 객체는 메서드 호출을 가로채고 `TransactionInterceptor` 를 통해 트랜잭션 관리자를 호출하여 트랜잭션을 시작한다.

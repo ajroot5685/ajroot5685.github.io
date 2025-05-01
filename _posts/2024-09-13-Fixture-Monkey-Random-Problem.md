@@ -71,11 +71,11 @@ public class FixtureMember {
 
 - 0번째 객체
 
-<img src="/assets/img/240913/random1.png" alt="random1" width="600">
+<img src="/assets/img/24/09/13/random1.png" alt="random1" width="600">
 
 - 1번째 객체
 
-<img src="/assets/img/240913/random2.png" alt="random2" width="600">
+<img src="/assets/img/24/09/13/random2.png" alt="random2" width="600">
 
 #### [수정 후 코드로 테스트한 결과]
 - 0번째 객체 `meHp`의 주소값과 1번째 객체 `meHp`의 주소값이 달라졌다.
@@ -84,11 +84,11 @@ public class FixtureMember {
 
 - 0번째 객체
 
-<img src="/assets/img/240913/random3.png" alt="random3" width="600">
+<img src="/assets/img/24/09/13/random3.png" alt="random3" width="600">
 
 - 1번째 객체
 
-<img src="/assets/img/240913/random4.png" alt="random4" width="600">
+<img src="/assets/img/24/09/13/random4.png" alt="random4" width="600">
 
 
 <br>
@@ -117,7 +117,7 @@ default Stream<T> sampleStream() {
 ```
 
 - 또한 메서드를 이렇게 설명하고 있다.
-<img src="/assets/img/240913/sample.png" alt="sample" width="600">
+<img src="/assets/img/24/09/13/sample.png" alt="sample" width="600">
 
 - 여기서 눈에 띄는건 값을 1000개까지 생성하면서, 클래스에 `Random` 객체를 주입받는다고 한다.
 - 주입받는 시점에서 동일한 시드값을 통해 주입받으면 똑같은 값이 나올 수 있다.

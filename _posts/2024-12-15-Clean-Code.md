@@ -284,11 +284,11 @@ SRP를 극단적으로 지키기 위해 하나의 클래스 당 하나의 함수
 <br>
 이는 MVC 패턴을 따르는 웹 애플리케이션을 제작하기 때문에 더 의문이 드는 것 같기도 하다.
 
-<img src="/assets/img/241215/bad.png" style="border-radius:5px" alt="bad" width="300">
+<img src="/assets/img/24/12/15/bad.png" style="border-radius:5px" alt="bad" width="300">
 
 이게 과연 좋은 코드일까..?
 
-<img src="/assets/img/241215/wtf.png" style="border-radius:5px" alt="wtf" width="600">
+<img src="/assets/img/24/12/15/wtf.png" style="border-radius:5px" alt="wtf" width="600">
 
 ## 마무리
 

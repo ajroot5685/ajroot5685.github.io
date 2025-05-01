@@ -40,7 +40,7 @@ tags:
 
 #### [Work-Stealing 메커니즘]
 
-![work-stealing](/assets/img/240409/work-stealing.png)
+![work-stealing](/assets/img/24/04/09/work-stealing.png)
 
 1. 사용자가 task를 등록한다.(submit)
 2. inbound queue에 task가 들어가고, worker thread A와 B가 task를 가져가 처리한다.(take)

@@ -13,7 +13,7 @@ tags:
 2년 전부터 눈여겨 보고는 있었는데, 바쁘다는 핑계(~~왜 바쁠때만 하세요?~~)로 미루다가 더이상 미룰 수 없는 4학년에 도전하게 되었다<br>
 하지만 회사를 다녀서 결국 더 바쁜 시기에 우테코 프리코스를 하게 되었다.
 
-<img src="/assets/img/241113/precourse.png" alt="precourse" width="400">
+<img src="/assets/img/24/11/13/precourse.png" alt="precourse" width="400">
 > 1달 동안 정말 지옥이었다...
 
 <br>
@@ -49,7 +49,7 @@ tags:
 ## 프리코스
 처음 자바를 접했을 때 익숙하지 않은 객체지향 개념으로 인해 `C/C++` 보다도 어려워 했고, 자바 개발자는 *절대* 하지 말아야겠단 다짐도 했었다.
 
-<img src="/assets/img/241113/zzazan.png" alt="zzazan" width="400">
+<img src="/assets/img/24/11/13/zzazan.png" alt="zzazan" width="400">
 
 그때는 몰랐다. ~~우리나라가 자바 공화국인것을...~~ 지금의 내가 객체지향의 편리함을 깨닫고 스프링의 노예가 될 줄..
 

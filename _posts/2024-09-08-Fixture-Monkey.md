@@ -62,7 +62,7 @@ tags:
 <br>
 
 ## Fixture Monkey
-<img src="/assets/img/240908/fixture monkey.png" alt="fixture monkey" width="600">
+<img src="/assets/img/24/09/08/fixture monkey.png" alt="fixture monkey" width="600">
 
 [Fixture Monkey 웹페이지](https://naver.github.io/fixture-monkey/v1-0-0/)
 
@@ -70,7 +70,7 @@ tags:
 - 몇년 간의 개선 후에 2023.11.10 에 정식 1.0.0 버전이 릴리즈되었다.
 - Fixture와 Monkey Testing에서 따온 Monkey를 합쳐 Fixture Monkey 라는 이름으로 탄생한 이 라이브러리는 사진처럼 여러 장점을 내세우고 있다.
 
-<img src="/assets/img/240908/homepage.png" alt="homepage" width="600">
+<img src="/assets/img/24/09/08/homepage.png" alt="homepage" width="600">
 
 **재사용 가능하고 복잡한 임의의 테스트 Fixture를 자동으로 생성해 주는 Java&Kotlin 라이브러리**
 > 아쉽지만 스프링을 타겟으로 나온 라이브러리이다.

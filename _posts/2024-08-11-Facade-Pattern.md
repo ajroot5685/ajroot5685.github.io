@@ -31,8 +31,8 @@ tags:
 - 여러 개의 서비스를 호출하는 로직을 파사드 클래스에 캡슐화하여 클라이언트의 로직이 단순화되고, 가독성이 향상된다.
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="/assets/img/240811/facade1-1.png" alt="facade1-1" width="300">
-    <img src="/assets/img/240811/facade1-2.png" alt="facade1-2" width="400">
+    <img src="/assets/img/24/08/11/facade1-1.png" alt="facade1-1" width="300">
+    <img src="/assets/img/24/08/11/facade1-2.png" alt="facade1-2" width="400">
 </div>
 
 <br>
@@ -123,11 +123,11 @@ public class DashBoardFacade {
 
 - 아래 그림에서는 수십 개, 수백 개의 많은 서비스 클래스로 인해 순환 참조를 인식하지 못하고 잘못된 의존을 한 경우이다.
 
-  <img src="/assets/img/240811/facade2-1.png" alt="facade2-1" width="600">
+  <img src="/assets/img/24/08/11/facade2-1.png" alt="facade2-1" width="600">
 
 - 파사드 계층이 추가되면 의존 가능 여부를 쉽게 확인할 수 있어 순환 참조를 방지할 수 있다.
 
-  <img src="/assets/img/240811/facade2-2.png" alt="facade2-2" width="600">
+  <img src="/assets/img/24/08/11/facade2-2.png" alt="facade2-2" width="600">
 
 <br>
 
@@ -135,7 +135,7 @@ public class DashBoardFacade {
 - 디자인 패턴은 제대로 사용한다면 가독성 좋고, 유지보수 좋은 코드가 완성되지만, 잘못된 방법으로 사용한다면 사용 안하는것만도 못한 결과가 발생한다.
 - 회사 프로젝트에서 파사드 패턴을 도입하였지만 잘못된 사용으로 오히려 복잡성이 증가한 사례를 소개하겠다.
 
-<img src="/assets/img/240811/facade3-1.png" alt="facade3-1" width="600">
+<img src="/assets/img/24/08/11/facade3-1.png" alt="facade3-1" width="600">
 - 여러 개의 서비스를 파사드가 사용하듯이, 여러 개의 파사드를 사용하는 `Workflow` 계층이 추가되었다.
 - `컨트롤러 -> 서비스` 의 방식에서 `컨트롤러 -> 워크플로우 -> 파사드 -> 서비스` 로 확장된 것이다.
 

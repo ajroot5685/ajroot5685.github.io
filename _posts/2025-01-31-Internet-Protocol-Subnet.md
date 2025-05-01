@@ -21,7 +21,7 @@ math: true
 
 지금은 대체된 클래스 방식의 문제를 다시 살펴보자
 
-<img src="/assets/img/250126/ip_class.png" style="border-radius:5px" alt="ip_class" width="800">
+<img src="/assets/img/25/01/26/ip_class.png" style="border-radius:5px" alt="ip_class" width="800">
 
 클래스에 따라 네트워크/호스트 부의 비트 수가 **고정되어있다**.
 <br><br>
@@ -213,7 +213,7 @@ IP주소를 효율적으로 사용하고, 네트워크 성능 및 보안을 향�
 
 ## 정보처리기사 실기 문제 풀이
 
-<img src="/assets/img/250131/problem.png" style="border-radius:5px" alt="problem" width="400">
+<img src="/assets/img/25/01/31/problem.png" style="border-radius:5px" alt="problem" width="400">
 
 > 22년 2회 9번 문제
 

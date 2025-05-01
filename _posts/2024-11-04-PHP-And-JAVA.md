@@ -13,7 +13,7 @@ tags:
 - 위의 이름은 현재 PHP의 약자를 나타낸다.
 - 기존 약자는 `Personal Home Page Tools` 이었고, 이름 그대로 개인 홈페이지를 만들기 위한 툴이였지만, 점차 발전함에 따라 대표적인 **서버 사이드 스크립트 언어**가 되었다.
 
-<img src="/assets/img/241104/tiobe.png" alt="tiobe" width="600">
+<img src="/assets/img/24/11/04/tiobe.png" alt="tiobe" width="600">
 
 - [언어의 사용 순위를 매겨주는 사이트](https://www.tiobe.com/tiobe-index/)를 보면 점유율이 많이 떨어진 모습을 볼 수 있다.
     > 1년 전에는 8위였는데 현재는 15위로 떨어졌다.
@@ -52,7 +52,7 @@ tags:
 
 ## JAVA
 
-<img src="/assets/img/241104/JAVA Island.png" alt="JAVA Island" width="500">
+<img src="/assets/img/24/11/04/JAVA Island.png" alt="JAVA Island" width="500">
 - 자바는 고유한 명사로, 커피로 유명한 인도네시아의 **자바** 섬에서 유래했다고 한다.
     > 자바를 개발하던 사람들이 카페인에 많이 의존했기 때문이라고..
 
@@ -62,7 +62,7 @@ tags:
 
 #### [플랫폼 독립성]
 
-<img src="/assets/img/241104/byteCode.png" alt="byteCode" width="600">
+<img src="/assets/img/24/11/04/byteCode.png" alt="byteCode" width="600">
 - 바이트코드로 컴파일되므로, 플랫폼에 종속적이지 않다.
 - 이런 강력한 장점으로 인해 여러 언어에서 JVM을 모방하기도 한다.
 
@@ -90,7 +90,7 @@ tags:
 
 #### [컴파일 언어]
 
-<img src="/assets/img/241104/JVM.png" alt="JVM" width="600">
+<img src="/assets/img/24/11/04/JVM.png" alt="JVM" width="600">
 - 자바 컴파일러에 의해 바이트 코드로 변환되고, JVM에 의해 실행된다.
 - 보통 바이트 코드로 변환되는 시간이 가장 오래 걸린다.
   > 1초만에 빌드되는 `GraalVM` 기술도 있지만, 현재는 안정성이 매우 떨어진다.
@@ -103,6 +103,6 @@ tags:
 - 그럼에도 마이그레이션 하는 이유는 우리나라가 자바 공화국이기 때문일 것이다.
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="/assets/img/241104/JAVA.png" alt="JAVA" width="100">
-    <img src="/assets/img/241104/coffee.png" alt="coffee" width="250">
+    <img src="/assets/img/24/11/04/JAVA.png" alt="JAVA" width="100">
+    <img src="/assets/img/24/11/04/coffee.png" alt="coffee" width="250">
 </div>

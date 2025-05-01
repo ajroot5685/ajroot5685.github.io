@@ -17,7 +17,7 @@ tags:
 - 지난 포스팅에서 다루었던 GitHub Actions 개념들을 바탕으로 스프링 프로젝트를 도커 허브에 올리고(`CI`), Naver Cloud Platform의 서버 인스턴스에서 배포하는 과정(`CD`)를 구축해보겠다.
 - 아키텍쳐로 나타내면 아래 그림과 같다.
 
-<img src="/assets/img/240527/github%20actions.png" alt="architcture" width=600>
+<img src="/assets/img/24/05/27/github%20actions.png" alt="architcture" width=600>
 
 
 <br>
@@ -27,7 +27,7 @@ tags:
 - CI/CD를 구축하고자 하는 레포지토리의 Actions 탭에서 여러 템플릿을 사용할 수 있다.
 - 여기서는 Java with Gradle 템플릿을 기본으로 사용한다.
 
-<img src="/assets/img/240527/workflow template.png" alt="architcture" width=700>
+<img src="/assets/img/24/05/27/workflow template.png" alt="architcture" width=700>
 
 <br>
 
@@ -118,7 +118,7 @@ jobs:
 - 비밀 키나, 공개하고 싶지 않은 값들은 깃허브에 올리면 안된다.
 - 이런 비밀 값들을 사용하기 위해서는 레포지토리의 `Settings - Secrets and variables - actions` 에서 등록해주어야 한다.
 
-<img src="/assets/img/240527/secrets.png" alt="architcture" width=700>
+<img src="/assets/img/24/05/27/secrets.png" alt="architcture" width=700>
 
 <br>
 
@@ -298,6 +298,6 @@ jobs:
 <br>
 
 ## 결과
-<img src="/assets/img/240527/github action result.png" alt="result" width=500>
+<img src="/assets/img/24/05/27/github action result.png" alt="result" width=500>
 
 - 이렇게 설계를 완료한 후 `main` 브랜치에 push 작업을 수행할 때마다 정상적으로 CI/CD가 자동화된 것을 볼 수 있다.

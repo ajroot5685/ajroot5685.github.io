@@ -16,7 +16,7 @@ tags:
 실행(런타임) 중에 알고리즘 전략을 선택하여 객체 동작을 실시간으로 바꾸는 **행위(행동) 디자인 패턴**
 </div>
 
-<img src="/assets/img/240920/structure.png" alt="구조" width="600">
+<img src="/assets/img/24/09/20/structure.png" alt="구조" width="600">
 
 - 전략을 사용할 Context에서 interface에 의존함으로써 전략을 쉽게 바꿔 낄 수 있다.
 
@@ -146,7 +146,7 @@ public class ServiceLayer {
 - 뿐만 아니라 하나의 로직을 이해하려면 관련된 모든 전략 객체 로직을 봐야했는데, 이때에도 **중복 로직**이 많았기 때문이다.
 - 이런 **중복 로직**으로 인해 전략 패턴을 혐오하는 단계까지 이르렀다.
 
-<img src="/assets/img/240920/omg.png" alt="omg" width="700">
+<img src="/assets/img/24/09/20/omg.png" alt="omg" width="700">
 - 위 그림이 뭔가 잘못되었다고 느껴지는가?
 - 자주 사용하는 기본적인 구조인 3계층 구조에서 **Strategy 계층이 하나가 더 추가가 된 셈**이었다.
 - 나는 괜히 계층만 하나 더 추가해서 복잡하게 만들 바에야, 컨트롤러를 분리시키는 것이 낫다고 생각했다.

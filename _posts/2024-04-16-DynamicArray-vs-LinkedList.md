@@ -16,7 +16,7 @@ tags:
 - 메모리상에서 연속적으로 저장되어 있는 특징을 갖기 때문에, index를 통한 접근이 용이하다.
 - 배열의 크기는 처음 생성할 때 정하며, 이후에는 변경할 수 없다.
 
-![array](/assets/img/240416/array.png)
+![array](/assets/img/24/04/16/array.png)
 
 <br>
 
@@ -40,7 +40,7 @@ tags:
 
     > 아래 그림에서 만약 배열이 50KB의 연속된 메모리 공간을 필요로 한다면 메모리 공간이 다 나뉘어져 있으므로 저장할 수 없다.
 
-    ![outer fragment](/assets/img/240416/outer%20fragmentation.png)
+    ![outer fragment](/assets/img/24/04/16/outer%20fragmentation.png)
 
 <br>
 

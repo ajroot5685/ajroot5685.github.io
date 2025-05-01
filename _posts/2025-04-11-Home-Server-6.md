@@ -37,18 +37,18 @@ tags:
 <br><br>
 예시 : green 컨테이너가 띄워져 있는 상황
 
-<img src="/assets/img/250411/blue_green1.png" style="border-radius:5px" alt="blue_green1" width="300">
+<img src="/assets/img/25/04/11/blue_green1.png" style="border-radius:5px" alt="blue_green1" width="300">
 
 1. 새로운 파이프라인이 실행된다.
 2. 다른 포트로 다른 버전의 컨테이너가 실행된다
 
-    <img src="/assets/img/250411/blue_green2.png" style="border-radius:5px" alt="blue_green2" width="300">
+    <img src="/assets/img/25/04/11/blue_green2.png" style="border-radius:5px" alt="blue_green2" width="300">
 3. nginx는 새로운 컨테이너에 연결한다.
 
-    <img src="/assets/img/250411/blue_green3.png" style="border-radius:5px" alt="blue_green3" width="300">
+    <img src="/assets/img/25/04/11/blue_green3.png" style="border-radius:5px" alt="blue_green3" width="300">
 4. 기존 컨테이너는 제거된다.
 
-    <img src="/assets/img/250411/blue_green4.png" style="border-radius:5px" alt="blue_green4" width="300">
+    <img src="/assets/img/25/04/11/blue_green4.png" style="border-radius:5px" alt="blue_green4" width="300">
 
 <br>
 
@@ -275,4 +275,4 @@ jobs:
 
 잘 설정했다면 아래처럼 애플리케이션이 API를 처리할 수 있을 때까지 헬스체크를 시도한 후 새로운 컨테이너로 재연결 될 것이다.
 
-<img src="/assets/img/250411/success.png" style="border-radius:5px" alt="success" width="800">
+<img src="/assets/img/25/04/11/success.png" style="border-radius:5px" alt="success" width="800">

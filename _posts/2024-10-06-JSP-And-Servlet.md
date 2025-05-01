@@ -173,7 +173,7 @@ public class HelloServlet extends HttpServlet {
 
 #### [Servlet + JSP]
 
-<img src="/assets/img/241006/servlet+jsp.png" alt="servlet+jsp" width="600">
+<img src="/assets/img/24/10/06/servlet+jsp.png" alt="servlet+jsp" width="600">
 
 - JSP만 사용하기에는 자바 코드 작성이 불편하고, Servlet만 사용하기에는 HTML로 인해 가독성이 떨어지기 때문에 두가지를 결합하는 형태로 많이 쓰인다고 한다.
 - 여기에 MVC 패턴을 도입하여 **JSP가 View를 담당**하고 **Servlet이 Controller를 담당**하여 효율적인 WAS 개발이 가능해졌다.

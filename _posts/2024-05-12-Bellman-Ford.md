@@ -16,7 +16,7 @@ tags:
 
 [다익스트라(dijkstra) 알고리즘](https://ajroot5685.github.io/posts/dijkstra/)
 
-<img src="/assets/img/240512/dijkstra.png" alt="dijkstra" width=500>
+<img src="/assets/img/24/05/12/dijkstra.png" alt="dijkstra" width=500>
 
 - 위 그림에서 다익스트라는 **각 노드에 한번만 방문**하고, 바로 앞에 있는 간선 중에서 **가장 짧은 것**을 선택한다.
 - 그 결과 `1->3` 경로의 거리는 음수 가중치를 인식하지 못해 5가 아닌 **10**이라는 결과가 도출된다.
@@ -49,15 +49,15 @@ tags:
 - 노드 개수 : 4개, 출발 노드 : 1번
 - 배열 초기화 상태로 시작
 
-<img src="/assets/img/240512/bm1-1.jpg" alt="bm1-1" width=500>
-<img src="/assets/img/240512/bm1-2.jpg" alt="bm1-2" width=300>
+<img src="/assets/img/24/05/12/bm1-1.jpg" alt="bm1-1" width=500>
+<img src="/assets/img/24/05/12/bm1-2.jpg" alt="bm1-2" width=300>
 
 > 각 반복마다 간선을 확인하는 순서는 동일하다고 가정
 
-<img src="/assets/img/240512/bm1-3.jpg" alt="bm1-3" width=500>
-<img src="/assets/img/240512/bm1-4.jpg" alt="bm1-4" width=500>
-<img src="/assets/img/240512/bm1-5.jpg" alt="bm1-5" width=500>
-<img src="/assets/img/240512/bm1-6.jpg" alt="bm1-6" width=500>
+<img src="/assets/img/24/05/12/bm1-3.jpg" alt="bm1-3" width=500>
+<img src="/assets/img/24/05/12/bm1-4.jpg" alt="bm1-4" width=500>
+<img src="/assets/img/24/05/12/bm1-5.jpg" alt="bm1-5" width=500>
+<img src="/assets/img/24/05/12/bm1-6.jpg" alt="bm1-6" width=500>
 
 > 예시에서는 노드 개수가 적어 한번만에 최종 최단 거리가 도출되었지만, 노드 개수가 많고 음수 간선이 많으면 계속 바뀔 수 있다.
 
@@ -69,12 +69,12 @@ tags:
 - 위의 예시에서 `3 -> 4` 간선의 가중치가 1로 줄어드는 경우 음수 사이클이 생긴다.
 - 이 경우에는 어떤 결과가 나오는지 알아보자.
 
-<img src="/assets/img/240512/bm2-1.jpg" alt="bm2-1" width=500>
-<img src="/assets/img/240512/bm2-2.jpg" alt="bm2-2" width=300>
-<img src="/assets/img/240512/bm2-3.jpg" alt="bm2-3" width=500>
-<img src="/assets/img/240512/bm2-4.jpg" alt="bm2-4" width=500>
-<img src="/assets/img/240512/bm2-5.jpg" alt="bm2-5" width=500>
-<img src="/assets/img/240512/bm2-6.jpg" alt="bm2-6" width=500>
+<img src="/assets/img/24/05/12/bm2-1.jpg" alt="bm2-1" width=500>
+<img src="/assets/img/24/05/12/bm2-2.jpg" alt="bm2-2" width=300>
+<img src="/assets/img/24/05/12/bm2-3.jpg" alt="bm2-3" width=500>
+<img src="/assets/img/24/05/12/bm2-4.jpg" alt="bm2-4" width=500>
+<img src="/assets/img/24/05/12/bm2-5.jpg" alt="bm2-5" width=500>
+<img src="/assets/img/24/05/12/bm2-6.jpg" alt="bm2-6" width=500>
 
 - 음수 사이클의 존재로 최단 거리 배열이 계속 수정되었고, 음수 사이클을 확인하는 n번째 반복에서도 값이 변경되어 음수 사이클이 있음을 확인했다.
 

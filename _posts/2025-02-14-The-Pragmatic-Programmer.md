@@ -74,7 +74,7 @@ tags:
 <br>
 개발자의 길을 걷는 한, 평생을 공부해야 한다. 개발자가 되고 싶다면, 평생을 공부할 수 있는지를 먼저 생각해보자.
 
-<img src="/assets/img/250214/red_queen.png" style="border-radius:5px" alt="red_queen" width="500">
+<img src="/assets/img/25/02/14/red_queen.png" style="border-radius:5px" alt="red_queen" width="500">
 
 <br>
 

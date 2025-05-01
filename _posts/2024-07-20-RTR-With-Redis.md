@@ -51,7 +51,7 @@ tags:
 
 ## 왜 Redis를 사용하는가?
 
-<img src="/assets/img/240720/redis.png" alt="redis" width=600>
+<img src="/assets/img/24/07/20/redis.png" alt="redis" width=600>
 - 물론 RDB(`Relational DataBase`)를 사용해도 되지만 Redis를 사용하는 것이 더 좋고 편하다.
 
 1. 성능이 빠르다.
@@ -298,22 +298,22 @@ hgetall KEY
 #### [로그인 후]
 - `userId` 가 9인 회원 로그인
 
-<img src="/assets/img/240720/login.png" alt="login" width=300>
-<img src="/assets/img/240720/login2.png" alt="login2" width=600>
+<img src="/assets/img/24/07/20/login.png" alt="login" width=300>
+<img src="/assets/img/24/07/20/login2.png" alt="login2" width=600>
 
 <br>
 
 #### [reissue]
 - reissue시 새로운 RT가 저장된다.
 
-<img src="/assets/img/240720/reissue.png" alt="reissue" width=600>
+<img src="/assets/img/24/07/20/reissue.png" alt="reissue" width=600>
 
 <br>
 
 #### [로그아웃]
 - 로그아웃 또는 유효하지 않은 RT가 들어온 경우 무효화, 여기서는 삭제된다.
 
-<img src="/assets/img/240720/logout.png" alt="logout" width=400>
+<img src="/assets/img/24/07/20/logout.png" alt="logout" width=400>
 
 <br>
 

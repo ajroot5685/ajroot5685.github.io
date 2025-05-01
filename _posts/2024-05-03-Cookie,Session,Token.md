@@ -105,7 +105,7 @@ Cookie: username=test; password=1234
 4. 클라이언트는 세션 id가 담긴 쿠키를 매번 보낸다.
 5. 서버는 세션 저장소에서 세션 id에 해당하는 회원이 있는지 확인하여 요청을 보낸 클라이언트가 누군지 알게 된다.
 
-![cookie, session](/assets/img/240503/cookie,session.png)
+![cookie, session](/assets/img/24/05/03/cookie,session.png)
 
 <br>
 

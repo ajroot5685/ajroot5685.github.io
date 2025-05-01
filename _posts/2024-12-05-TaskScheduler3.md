@@ -31,9 +31,9 @@ TaskScheduler의 기본 구현체는 ThreadPoolTaskScheduler이다.
 쓰레드 풀 설정이 없을 경우 기본적으로 단일 쓰레드로 동작하며, 작업이 몇개가 등록되었든 상관없이 하나의 쓰레드가 순차적으로 처리한다.
 <br>
 
-<img src="/assets/img/241205/threadOneLogic.png" style="border-radius:5px" alt="threadOneLogic" width="800">
+<img src="/assets/img/24/12/05/threadOneLogic.png" style="border-radius:5px" alt="threadOneLogic" width="800">
 
-<img src="/assets/img/241205/threadOne.png" style="border-radius:5px" alt="threadOne" width="300">
+<img src="/assets/img/24/12/05/threadOne.png" style="border-radius:5px" alt="threadOne" width="300">
 
 여기서 @Scheduled와 다른 점은 모든 데이터를 가져와서 예약시간이 되었는지 확인하지 않고, **특정 시간에 예약된 작업들만 수행**한다는 것이다.
 <br>
@@ -46,7 +46,7 @@ TaskScheduler의 기본 구현체는 ThreadPoolTaskScheduler이다.
 
 시스템의 자원을 최대한 끌어쓰기 위해서 쓰레드풀 설정을 추가한다.
 
-<img src="/assets/img/241205/config.png" style="border-radius:5px" alt="config" width="600">
+<img src="/assets/img/24/12/05/config.png" style="border-radius:5px" alt="config" width="600">
 
 #### [@Async 사용?]
 
@@ -57,11 +57,11 @@ TaskScheduler의 기본 구현체는 ThreadPoolTaskScheduler이다.
 이때, @Async를 추가로 설정하면 작업을 위임 받은 쓰레드가 **또다시 다른 쓰레드에게 작업을 위임**하므로, 비동기 작업이 추가로 필요한게 아니라면 @Async 사용을 하면 안된다.
 > 하나의 작업 당 2개의 쓰레드가 붙게 되는 것이다.
 
-<img src="/assets/img/241205/task1.png" style="border-radius:5px" alt="task1" width="600">
+<img src="/assets/img/24/12/05/task1.png" style="border-radius:5px" alt="task1" width="600">
 
-<img src="/assets/img/241205/task2.png" style="border-radius:5px" alt="task2" width="600">
+<img src="/assets/img/24/12/05/task2.png" style="border-radius:5px" alt="task2" width="600">
 
-<img src="/assets/img/241205/taskResult.png" style="border-radius:5px" alt="taskResult" width="300">
+<img src="/assets/img/24/12/05/taskResult.png" style="border-radius:5px" alt="taskResult" width="300">
 
 <br>
 
@@ -71,7 +71,7 @@ FCM에 알람 발송을 요청하는 로직을 수행하는 도중에 WAS가 종
 <br>
 따라서 gracefulShutdown 설정을 통해 현재 수행 중인 작업이 끝날 때까지 애플리케이션을 대기하도록 설정을 추가한다.
 
-<img src="/assets/img/241205/gracefulShutdown.png" style="border-radius:5px" alt="gracefulShutdown" width="600">
+<img src="/assets/img/24/12/05/gracefulShutdown.png" style="border-radius:5px" alt="gracefulShutdown" width="600">
 
 > 알림 작업 뿐만 아니라, 다른 작업들도 갑자기 종료되면 UX에 악영향을 끼칠 수 있으므로, 애플리케이션 자체에 gracefulShutdown을 설정하는 것을 추천한다.
 
@@ -91,8 +91,8 @@ WAS가 종료되면 예약 작업은 모두 사라지기 때문에 재실행 후
 알림 내역 엔티티에 발송 상태 필드를 추가하여 구분한다.
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 700px">
-  <img src="/assets/img/241205/status.png" style="border-radius:5px" alt="status" width="300">
-  <img src="/assets/img/241205/statusEnum.png" style="border-radius:5px" alt="statusEnum" width="300">
+  <img src="/assets/img/24/12/05/status.png" style="border-radius:5px" alt="status" width="300">
+  <img src="/assets/img/24/12/05/statusEnum.png" style="border-radius:5px" alt="statusEnum" width="300">
 </div>
 
 <br>
@@ -101,7 +101,7 @@ WAS가 종료되면 예약 작업은 모두 사라지기 때문에 재실행 후
 
 `ApplicationReadyEvent`를 이용해 WAS가 재실행된 이후에 모든 `PENDING` 상태인 알림들을 가져와 재등록한다.
 
-<img src="/assets/img/241205/reRegistration.png" style="border-radius:5px" alt="reRegistration" width="600">
+<img src="/assets/img/24/12/05/reRegistration.png" style="border-radius:5px" alt="reRegistration" width="600">
 
 각 상태에 대해서는 바로 아래에서 후술한다.
 
@@ -113,7 +113,7 @@ WAS가 종료되면 예약 작업은 모두 사라지기 때문에 재실행 후
 
 PENDING 상태는 알림이 발송되어야 하는 상태를 뜻하며, 알림이 생성된 후부터 알림 발송 요청(FCM)을 보낼 때까지 유지된다.
 
-<img src="/assets/img/241205/pending.png" style="border-radius:5px" alt="pending" width="600">
+<img src="/assets/img/24/12/05/pending.png" style="border-radius:5px" alt="pending" width="600">
 
 <br>
 
@@ -127,7 +127,7 @@ COMPLETE 상태는 알림이 정상적으로 발송된 상태를 뜻하며, 알�
 <br>
 즉, **알림 발송이 아닌 알림 발송 요청에 성공**했다는 뜻이다.
 
-<img src="/assets/img/241205/complete.png" style="border-radius:5px" alt="complete" width="450">
+<img src="/assets/img/24/12/05/complete.png" style="border-radius:5px" alt="complete" width="450">
 
 <br>
 
@@ -137,7 +137,7 @@ COMPLETE 상태는 알림이 정상적으로 발송된 상태를 뜻하며, 알�
 <br>
 FCM은 알림 발송을 처리할 뿐만 아니라 그 결과도 반환해주기 때문에 알림 발송이 실패했는지 여부를 알 수 있다.
 
-<img src="/assets/img/241205/cancel.png" style="border-radius:5px" alt="cancel" width="600">
+<img src="/assets/img/24/12/05/cancel.png" style="border-radius:5px" alt="cancel" width="600">
 
 <br>
 
@@ -159,7 +159,7 @@ Lock을 사용할 때에는 병목이 생기지 않도록 **최대한 범위를 
 
 아래는 JPA의 @Lock을 사용한 조회메서드와 실제 Lock을 사용한 비즈니스 로직이다.
 
-<img src="/assets/img/241205/lock.png" style="border-radius:5px" alt="lock" width="600">
+<img src="/assets/img/24/12/05/lock.png" style="border-radius:5px" alt="lock" width="600">
 
 ```java
 // 1. 예약 작업 로직 실행 시
@@ -196,7 +196,7 @@ public void reRegistrationPendingAlarms() {
 <br>
 당연히 아니므로, 별도로 핸들링 로직이 필요하다.
 
-<img src="/assets/img/241205/cancel2.png" style="border-radius:5px" alt="cancel2" width="700">
+<img src="/assets/img/24/12/05/cancel2.png" style="border-radius:5px" alt="cancel2" width="700">
 
 1. 위 이미지처럼 오류가 발생하더라도 추가 처리는 하지않고, 개발자에게 알리기만 한다.
 - 유연하게 대처가 가능하므로, 오류 발생이 서비스에 치명적이지 않을때 좋은 방법이다.

@@ -92,8 +92,8 @@ AWS Certificate Manager(무료)와 연동하여 손쉽게 인증서를 관리할
 ## 내가 생각한 아키텍처
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 800px">
-  <img src="/assets/img/250304/plan.png" style="border-radius:5px" alt="plan" width="380">
-  <img src="/assets/img/250304/plan2.png" style="border-radius:5px" alt="plan2" width="380">
+  <img src="/assets/img/25/03/04/plan.png" style="border-radius:5px" alt="plan" width="380">
+  <img src="/assets/img/25/03/04/plan2.png" style="border-radius:5px" alt="plan2" width="380">
 </div>
 
 
@@ -136,7 +136,7 @@ AWS Certificate Manager(무료)와 연동하여 손쉽게 인증서를 관리할
 
 > 하지만 시도하기 전에 ALB 연결에 문제가 생겨버렸다
 
-<img src="/assets/img/250304/backup.png" style="border-radius:5px" alt="backup" width="300">
+<img src="/assets/img/25/03/04/backup.png" style="border-radius:5px" alt="backup" width="300">
 
 <br>
 
@@ -154,7 +154,7 @@ AWS Certificate Manager(무료)와 연동하여 손쉽게 인증서를 관리할
 <br><br>
 만약 이 기술을 채택한다면 아키텍처는 아래와 같다.
 
-<img src="/assets/img/250304/correct.png" style="border-radius:5px" alt="correct" width="400">
+<img src="/assets/img/25/03/04/correct.png" style="border-radius:5px" alt="correct" width="400">
 
 <br>
 
