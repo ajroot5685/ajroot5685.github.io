@@ -153,8 +153,16 @@ sudo ./svc.sh start
 이렇게 설정한 변수는 워크플로우 스크립트에서 <code class="language-plaintext highlighter-rouge">$&#123;&#123; secrets.DOCKER_IMAGE_NAME &#125;&#125;</code> 와 같이 설정 가능하다.
 <br>
 `yaml` 같이 띄어쓰기 형식이 중요할 때에는 base64로 인코딩하여 설정하고, 사용할 때 디코딩하여 사용해야 한다.
+<br><br>
+온라인 사이트는 아무래도 찝찝하니 쉽게 터미널에서 변환해서 넣자
 
-> base64 인코딩은 변환시켜주는 아무 웹사이트를 찾아서 사용하면 된다.
+```bash
+# 인코딩
+echo -n '"hello"' | base64
+
+# 디코딩
+echo 'ImhlbGxvIg==' | base64 -d
+```
 
 <br>
 
