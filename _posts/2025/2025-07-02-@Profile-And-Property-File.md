@@ -1,6 +1,6 @@
 ---
 title: Profile 애노테이션과 프로필 별 yml 파일 구성 시 주의점
-date: 2025-07-02 14:39:00 +09:00
+date: 2025-07-02 19:22:00 +09:00
 categories: [spring]
 tags:
   [
@@ -97,7 +97,7 @@ swagger:
 ```
 
 <br>
-
+s
 `application-test.yml`
 - 인수테스트 시에는 메모리 H2 DB를 사용하며, 스웨거와 Redis는 사용하지 않는다.
 - **그럼에도 불구하고 Redis 환경변수들은 더미데이터라도 넣어주어야 한다.**
